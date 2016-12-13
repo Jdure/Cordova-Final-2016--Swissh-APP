@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Swish App</title>
+    <link rel="stylesheet" href="css/iconic-bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth|Titillium+Web" rel="stylesheet">
+    </head>
+
+<body>
+    <header>
+        <h1>The Swish App</h1> 
+    </header>
+    <main>
+        <h2>The Swish App</h2> 
+        
+ <section data-role="page" id="A" class="active">
+  <h1>TIMETABLES</h1>
+    <div id= wrapper>
+        <ul id= results>
+        </ul>
+    </div>
+</section>
+<section data-role="page" id="B" class="">
+  <h1>STANDINGS</h1>
+    <div id="standings">
+        <table id="teamStandings">
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>W</th>
+                    <th>L</th>
+                    <th>T</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- load the standings here after calculating them -->
+
+            </tbody>
+        </table>
+    </div>
+</section>
+<img src="img/TeamLogo/Bulls-%2096%20px.png" id="teamIcon1" alt="Bulls"  class="icon" >
+<img src="img/TeamLogo/Cavaliers-%2096%20px.png" id="teamIcon2" class="icon" alt="Cavaliers" >
+<img src="img/TeamLogo/Celtics%20-%2096px.png" class="icon" alt="Celtics" id="teamIcon3" >
+<img src="img/TeamLogo/Clippers-%2096%20px.png" class="icon" id="teamIcon4" alt="Clippers" >
+<img src="img/TeamLogo/Grizzlies-%2096%20px.png" class="icon" id="teamIcon5" alt="Grizzlies" >
+<img src="img/TeamLogo/Raptors-%2096%20px.png" class="icon" alt="Raptors" id="teamIcon6" >
+<img src="img/TeamLogo/Rockets%20-%2096px.png" class="icon" alt="Rockets" id="teamIcon7" >
+<img src="img/TeamLogo/Spurs-%2096%20px.png" alt="Spurs" class="icon" id="teamIcon8" >
+<img src="img/TeamLogo/Thunder-96px.png" class="icon" alt="Thunder" id="teamIcon9" >
+<img src="img/TeamLogo/Warriors-96px.png" class="icon" alt="Warriors" id="teamIcon10" >
+
+<div class="reload" id="myBtn">
+    <input class="fab" id="reloadBtn" type="image" src="img/reload.png" width="48" height="48" height/>
+</div>
+
+<nav>
+  <a href="#A" data-role="links"><i class="iconic iconic-calendar"></i>Timetable</a>
+  <a href="#B" data-role="links"><i class="iconic iconic-project"></i>Standings</a>
+</nav>
+   
+    </main>
+    <footer>
+        <p>&copy;
+            <time datetime="2016"> 2016</time> Jonathan Dure</p>
+    </footer>
+   <script src="js/myApp.js"></script>
+    
+</body>
+
+</html>
